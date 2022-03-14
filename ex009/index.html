@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>listas ordenadas</h2>
+    <ol type="1"start ="2"> <!--o parametro start é numérico se type for letra o start começa da 2 letra do alfabeto-->
+        <li>acordar</li>
+        <ol type="a" start="2"><!-- sub-lista do item 1--> <!--tipos de parâmetros = 1, A a, I, i -->
+            <li>olhar minhas menssagens</li>
+            <li>ver minhas roupas</li><!--fechamento das tags dos itens é opcional-->
+        </ol>
+        <li>ligar para fulano</li>
+        <li>tommar café</li>
+        <li>escovar os dentes</li>
+
+    </ol> <!--fechamento da lista é obrigatório-->
+    <h2>Listas não ordenada</h2>
+    <ul type ="disc"> <!-- parâmetros de marcador  disc, circle, square-->
+        <li>acordar</li>
+        <li>ver o celular</li>
+        <li>ver o cachorro</li>
+    </ul>
+    <h2>Listas mistas ordenadas e não ordenadas</h2>
+    <ol>
+        <li>cachorro</li>
+        <ul type = "square">
+            <li>cachorro amarelo</li>
+            <li>cachorro verde</li>
+            <li>cachorro azul</li>
+        </ul>
+        <li>Gato</li>
+        <ul type="square">
+            <li>Gato amarelo</li>
+            <li>Gato laranja</li>
+            <li>Gato marrom</li>
+        </ul>
+        <li>Passarinho</li>
+        <ul type = "square">
+            <li>Pássaro verde</li>
+            <li>Pássaro roxo</li>
+            <li>Pássaro Preto</li>
+        </ul>
+    </ol>
+    <h2>Listas de deginição</h2>
+    <dl><!--tag possui fechamento obrigatório-->
+        <!--as tags <dt> e <dd> tem fechamento opcional-->
+        <dt>HMTL</dt>
+        <dd>HYPERTEXT MARKUP LANGUAGE</dd>
+        <dt>CSS</dt>
+        <dd>CASCALE STYLES SHEETS</dd>
+        <dt>JavaScript</dt>
+        <dd>LINGUAGEM DE PROGRAMAÇÃO</dd>
+        <!---->
+    </dl>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hyperlink</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>você pode acessar <a href="https://github.com/ed05s" target="_blank" rel="external">meu repositório publico no gitHub</a></p> <!--o valoe href pede a pagina destino do link
+    o atribut target com valor blank diz que o link será aberto em uma nova guia, existem outros valores, porém target e self são os mais usados, tendo o self como padrão
+o atributo rel (relativo a) indica se o link é a relativo ao conteúdo da página ou externo valor(extenal)-->
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do meu site se você também pode visitar a <a href="pag002.html" target="_self"rel="next">página 2</a></p><!--CRTL+ESPACE mostrará os links html da mesma página-->
+    <a href="noticias/pag003.html" target="_self" rel="next">
+        <p>você também pode acessar nossa página de notícias</p>
+    </a>
+    <h1>links para download</h1>
+    <ul>
+        <li><a href="livro/03 - Como funciona HTML e CSS.pdf" download="comofuncionahtmlecss.pdf" type="application/pdf">baixar o livro em pdf</a></li><!-- o atributo dowload e um nome alternativo deve ser indicado além do média type, no caso do pdf é application/zip ou pdf como diz o exercício ... consultar o site média types-->
+        <li><a href="livro/html-css.zip" download="livro.zip" type="application/zip">baixar aqrquivo zip</a></li>
+    </ul>
+
+</body>
+</html>
